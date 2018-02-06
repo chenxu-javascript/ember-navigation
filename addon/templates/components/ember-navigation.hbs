@@ -1,0 +1,13 @@
+{{#if body}}
+  {{#ember-wormhole destinationElement=body}}
+    <div >
+      <nav class="{{navClassNames}} {{direction}}">
+        <div class="closenavigation " onclick={{action 'hide' }}></div>
+        <div class="_employer_marketing_body">
+          {{yield}}
+        </div>
+      </nav>
+      <div class="{{menyCoverClassNames}}" onclick={{action 'hide' }}></div>
+    </div>
+  {{/ember-wormhole}}
+{{/if}}
