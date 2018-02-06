@@ -3,7 +3,9 @@ import { later } from '@ember/runloop';
 import { computed as emComputed } from '@ember/object';
 import { set, get } from '@ember/object';
 import $ from 'jquery';
+import layout from '../templates/components/ember-navigation';
 export default Component.extend({
+  layout,
   body: '',
   isShown: false,
   direction: 'dir-right',
