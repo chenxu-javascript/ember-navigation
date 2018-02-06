@@ -7,21 +7,6 @@
   transform: translate3d(100%,0,0);
   transition: transform .5s ease-out;
   z-index: 2000;
-  &.dir-left{
-    top: 0;
-    left: auto;
-    bottom: 0;
-    right: 0;
-    width: 80%;
-  }
-  &.dir-right{
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: auto;
-    width: 80%;
-  }
-  left: auto;
   right: 8px;
   top: 8px;
   z-index: 9;
@@ -62,6 +47,20 @@
     filter: alpha(opacity=50);
     opacity: .7;
   }
+}
+._navigation_qulaki.dir-left{
+  top: 0;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+}
+._navigation_qulaki.dir-right{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  width: 80%;
 }
 ._navigation_qulaki._show_qulaki {
     -webkit-transform: translateX(0);
