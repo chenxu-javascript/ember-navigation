@@ -3,14 +3,12 @@
   left: auto;
   bottom: 0;
   right: 0;
-  width: 80%;
 }
 .ember-navigation-modal ._navigation_qulaki.dir-right{
   top: 0;
   left: 0;
   bottom: 0;
   right: auto;
-  width: 80%;
 }
 .ember-navigation-modal ._navigation_qulaki {
   position: fixed;
@@ -30,7 +28,7 @@
   float: right;
   font-size: 21px;
   line-height: 1;
-  color: #fff;
+  color: #000;
   text-shadow: 0 1px 0 #fff;
   filter: alpha(opacity=20);
   opacity: .2;
@@ -60,7 +58,7 @@
     top: 0;
   }
 .ember-navigation-modal ._navigation_qulaki .closenavigation:hover{
-  color: #fff;
+  color: #000;
   text-decoration: none;
   cursor: pointer;
   filter: alpha(opacity=50);
