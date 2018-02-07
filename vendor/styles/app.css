@@ -1,18 +1,18 @@
-._navigation_qulaki.dir-left{
+.ember-navigation-modal ._navigation_qulaki.dir-left{
   top: 0;
   left: auto;
   bottom: 0;
   right: 0;
   width: 80%;
 }
-._navigation_qulaki.dir-right{
+.ember-navigation-modal ._navigation_qulaki.dir-right{
   top: 0;
   left: 0;
   bottom: 0;
   right: auto;
   width: 80%;
 }
-._navigation_qulaki {
+.ember-navigation-modal ._navigation_qulaki {
   position: fixed;
   background-color: #fff;
   box-shadow: -1px 0 10px 0 rgba(0,0,0,.2);
@@ -22,7 +22,7 @@
   transition: transform .5s ease-out;
   z-index: 2000;
 }
-._navigation_qulaki .closenavigation{
+.ember-navigation-modal ._navigation_qulaki .closenavigation{
   position: absolute;
   right: 12px;
   top: 5px;
@@ -34,14 +34,14 @@
   z-index: 2000;
   opacity: .5;
 }
-._navigation_qulaki .closenavigation:hover{
+.ember-navigation-modal ._navigation_qulaki .closenavigation:hover{
   opacity: .8;
 }
-._navigation_qulaki._show_qulaki {
+.ember-navigation-modal ._navigation_qulaki._show_qulaki {
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
-._meny_cover{
+.ember-navigation-modal ._meny_cover{
   position: absolute;
   display: block;
   width: 100%;
@@ -54,11 +54,11 @@
   background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.75) 0%);
   transition: all 0.5s ease;
 }
-._meny_cover._show_qulaki{
+.ember-navigation-modal ._meny_cover._show_qulaki{
   visibility: visible;
   opacity: 1;
 }
-._employer_marketing_body{
+.ember-navigation-modal ._employer_marketing_body{
   position: absolute;
   top: 0;
   right: 0;
