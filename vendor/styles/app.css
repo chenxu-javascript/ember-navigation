@@ -69,7 +69,7 @@
     transform: translateX(0);
 }
 .ember-navigation-modal ._meny_cover{
-  position: absolute;
+  position: fixed;
   display: block;
   width: 100%;
   height: 100%;
